@@ -1,0 +1,16 @@
+package xytttt-5;
+
+import java.util.Scanner;
+
+public class xytttt-5.32 {
+
+	public static void main(String[] args) {		
+		int lottery1 = (int)(Math.random()*10);
+		int lottery2 = (int)(Math.random()*10);
+		while(lottery1==lottery2) {
+			lottery2 = (int)(Math.random()*10);
+		}
+			System.out.print(lottery1+lottery2);
+	}
+
+}
